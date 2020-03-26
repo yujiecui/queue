@@ -1,4 +1,2 @@
-# queue
-To provide the decision grid data for study simulations
+# Instructions
 
-to provide instructions
