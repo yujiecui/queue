@@ -8,7 +8,7 @@ Before beginning to run simulations, make sure you have registered and logged on
 
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
 
-Open up the FlexSimHC software, on the left panel, click "Open Model" and select the IQ designs model you just downloaded. This step might take a while.
+Open up the FlexSimHC software, on the left panel, click "Open Model" and select the IQ designs model (the file with a type of "FlexSim Model") you just downloaded. This step might take a while.
 
 Now on the right panel, click the Excel icon next to the "Experiment" button and select the excel file you just downloaded and wait for the file to be imported. After that, click the "Experiment" button. 
 
