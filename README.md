@@ -7,8 +7,8 @@ Before beginning to run simulations, make sure you have registered and logged on
 For general questions about FlexSim, please go to [FlexSimHC](https://flexsim.com/clinical-trials) website or watch a intro video here.
 
 
-[![Alt text](https://www.youtube.com/watch?v=oAgYD6WnWis)
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=oAgYD6WnWis "Video Title")
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/oAgYD6WnWis/0.jpg)](https://www.youtube.com/watch?v=oAgYD6WnWis "Video Title")
 
 ## Run the model
 
