@@ -6,6 +6,9 @@ Before beginning to run simulations, make sure you have registered and logged on
 
 For general questions about FlexSim, please go to [FlexSimHC](https://flexsim.com/clinical-trials) website or watch a intro video here.
 
+
+[![Alt text](https://www.youtube.com/watch?v=oAgYD6WnWis)
+
 ## Run the model
 
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
