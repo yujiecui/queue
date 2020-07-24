@@ -8,10 +8,11 @@ Watch the intro video here, or go to [FlexSimHC](https://flexsim.com/clinical-tr
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/oAgYD6WnWis/0.jpg)](https://www.youtube.com/watch?v=oAgYD6WnWis "Video Title")
 
+<!-- blank line -->
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/oAgYD6WnWis" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
-
+<!-- blank line -->
 ## Run the model
 
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
