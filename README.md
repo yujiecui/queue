@@ -4,6 +4,8 @@
 
 Before beginning to run simulations, make sure you have registered and logged onto FlexSimHC (https://flexsim.com/clinical-trials), and downloaded the FlexSimHC module. You should also see a serial number to activate the module. To activate, go to the Help menu -> Liscence Activation, and provide the Activation ID and click Activate. 
 
+For general questions about FlexSim, please go to [FlexSimHC](https://flexsim.com/clinical-trials) website or watch a intro video here.
+
 ## Run the model
 
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
