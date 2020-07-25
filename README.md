@@ -11,6 +11,9 @@ Watch the intro video here, or go to [FlexSimHC](https://flexsim.com/clinical-tr
 
 ## Run the model
 
+See the instructions.pdf for more details. 
+-------
+
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
 
 Open up the FlexSimHC software, on the left panel, click "Open Model" and select the IQ designs model (the .fsm file) you just downloaded. This step might take a while.
