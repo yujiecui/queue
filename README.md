@@ -11,8 +11,7 @@ Watch the intro video here, or go to [FlexSimHC](https://flexsim.com/clinical-tr
 
 ## Run the model
 
-See the instructions.pdf for more details. 
--------
+See the instructions.pdf above for more details on how to run a simulation model for the first time. 
 
 To run the IQ designs, download the model named "IQdesigns" and the xlsx decision grid data provided above. 
 
