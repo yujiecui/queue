@@ -43,7 +43,8 @@ data <- read.csv("DataCollector1.csv")  # this is flexsim output
 
 ```
 
-Summary of study duration, number of patients started treatment, etc. 
+Operating characteristics - study duration, number of patients started treatment, prob of each dose level declared as MTD, etc. 
+
 ```R
 # Summary - Number started treatment
 data %>% group_by(Scenario) %>% 
