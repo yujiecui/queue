@@ -27,8 +27,6 @@ Once the experiment is complete, you have the option to export results for furth
 
 # Analysis
 
-Summary of number of patients treated
-
 
 ```R
 library(tidyverse)
@@ -42,15 +40,23 @@ months<-function (days) {
   
 data <- read.csv("DataCollector1.csv")  # this is flexsim output
 
-data %>% summarise(mean = mean(NumFullyEvaluated), median = median(NumFullyEvaluated), range = range(NumFullyEvaluated))
 
 ```
 
-Sumamry of study duration
-
+Summary of study duration, number of patients started treatment, etc. 
 ```R
-data %>% summarise(mean = mean(months(st3$Time)), median = median(months(st3$Time)), range= range(months(st3$Time)))
+data %>% group_by(Scenario) %>% 
+summarise(meanSampleSize = mean(NumStartTreatment), medianSampleSize = median(NumStartTreatment))  # N started treatmetn at each design
+
+
+# mean study length in months
+data %>% group_by(Scenario) %>% 
+summarise(studyLength = mean(months(StudyLength)))  # N at each design
+
 ```
+
+
+
 
 
 
