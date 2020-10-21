@@ -46,12 +46,12 @@ data <- read.csv("DataCollector1.csv")  # this is flexsim output
 Summary of study duration, number of patients started treatment, etc. 
 ```R
 data %>% group_by(Scenario) %>% 
-summarise(meanSampleSize = mean(NumStartTreatment), medianSampleSize = median(NumStartTreatment))  # N started treatmetn at each design
+summarise(mean = mean(NumStartTreatment), median= median(NumStartTreatment), range = range(NumStartTreatment))  # N started treatmetn at each design
 
 
 # mean study length in months
 data %>% group_by(Scenario) %>% 
-summarise(studyLength = mean(months(StudyLength)))  # N at each design
+summarise(mean = mean(months(StudyLength)), median = median(months(StudyLength)), range = range(months(StudyLength)))  # Study length in months.
 
 ```
 
