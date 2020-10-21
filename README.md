@@ -54,6 +54,13 @@ summarise(mean = mean(NumStartTreatment), median= median(NumStartTreatment), ran
 data %>% group_by(Scenario) %>% 
 summarise(mean = mean(months(StudyLength)), median = median(months(StudyLength)), range = range(months(StudyLength)))  # Study length in months.
 
+# overdose rate
+
+data %>% mutate(overdose_rate = NumDLTsAboveMTD/NumFullyEvaluated) %>% 
+  group_by(Scenario) %>% 
+  summarise(mean = mean(overdose_rate))
+  
+
 ```
 
 
