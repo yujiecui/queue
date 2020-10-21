@@ -80,7 +80,13 @@ data %>%
   group_by(Scenario, FinalMTD) %>% 
   summarise(meanToxRate = mean(tox_rate))
   
-  
+# probability of each dose level being declared as final MTD, per Scenario (study design).
+
+data %>% 
+  group_by(Scenario, FinalMTD) %>% 
+  tally() %>% 
+  mutate(prob = n/simnum)
+
 ```
 
 
