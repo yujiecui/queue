@@ -65,7 +65,7 @@ data %>% mutate(overdose_rate = NumDLTsAboveMTD/NumFullyEvaluated) %>%
 data %>% group_by(Scenario) %>% 
   summarise(mean = mean(NumFullyEvaluated), median = median(NumFullyEvaluated), range = range(NumFullyEvaluated))
 
-# Number of simulated trials that did not determine an MTD
+# Number of simulated trials that did not determine a MTD
 
 data %>% filter(FinalMTD == 0) %>% 
   group_by(Scenario) %>% 
