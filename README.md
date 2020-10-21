@@ -71,7 +71,13 @@ data %>% filter(FinalMTD == 0) %>%
   group_by(Scenario) %>% 
   tally()
   
-  
+# Mean toxicity rate at each final MTD, per Scenario (study design).
+
+data %>% 
+  filter(FinalMTD >0) %>% # for studies with a final MTD declared only
+  mutate(tox_rate = NumDLTs/NumFullyEvaluated) %>% 
+  group_by(Scenario, FinalMTD) %>% 
+  summarise(meanToxRate = mean(tox_rate))
   
   
 ```
