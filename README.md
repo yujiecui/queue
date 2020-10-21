@@ -25,7 +25,7 @@ Now you will hear your pc fan running like it's going to explode.
 
 Once the experiment is complete, you have the option to export results for further analysis, just select the "DataCollector1" table under Data History Tables and click export data. 
 
-# Analysis
+# Analysis using R
 
 
 ```R
