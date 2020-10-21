@@ -25,9 +25,32 @@ Now you will hear your pc fan running like it's going to explode.
 
 Once the experiment is complete, you have the option to export results for further analysis, just select the "DataCollector1" table under Data History Tables and click export data. 
 
+# Analysis
+
+Summary of number of patients treated
 
 
+```R
+library(tidyverse)
+library(janitor)
 
+# calculate months from days
+months<-function (days) {
+  12*days/365.25
+  }
+  
+  
+data <- read.csv("DataCollector1.csv")  # this is flexsim output
+
+data %>% summarise(mean = mean(NumFullyEvaluated), median = median(NumFullyEvaluated), range = range(NumFullyEvaluated))
+
+```
+
+Sumamry of study duration
+
+```R
+data %>% summarise(mean = mean(months(st3$Time)), median = median(months(st3$Time)), range= range(months(st3$Time)))
+```
 
 
 
