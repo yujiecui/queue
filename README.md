@@ -30,7 +30,6 @@ Once the experiment is complete, you have the option to export results for furth
 
 ```R
 library(tidyverse)
-library(janitor)
 
 # calculate months from days
 months<-function (days) {
